@@ -41,8 +41,8 @@ public class UserInfoImpl implements UserInfoManager {
 
     @Transactional
     public void save(UserInfo userInfo, ClassRoom classRoom) throws RuntimeException{
-            userInfoMapper.insert(userInfo);
-            classRoomMapper.insert(classRoom);
+        userInfoMapper.insert(userInfo);
+        classRoomMapper.insert(classRoom);
     }
 
 }
